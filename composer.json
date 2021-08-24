@@ -1,0 +1,48 @@
+{
+    "name": "flamarkt/stock-notifications",
+    "description": "Update customers when a product is back in stock.",
+    "keywords": [
+        "flarum",
+        "flamarkt",
+        "marketplace",
+        "ecommerce",
+        "stock",
+        "notifications"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0",
+        "flamarkt/core": "^0.1.0"
+    },
+    "authors": [
+        {
+            "name": "Flamarkt",
+            "homepage": "https://flamarkt.org/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flamarkt/stock-notifications/issues",
+        "source": "https://github.com/flamarkt/stock-notifications"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flamarkt\\StockNotifications\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Stock Notifications",
+            "category": "flamarkt",
+            "icon": {
+                "name": "fas fa-bell",
+                "backgroundColor": "#266a13",
+                "color": "#fff"
+            }
+        },
+        "flamarkt-backoffice": {
+            "showInBackoffice": true,
+            "hideFromAdmin": true
+        }
+    }
+}

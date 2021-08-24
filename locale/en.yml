@@ -1,0 +1,20 @@
+flamarkt-stock-notifications:
+    backoffice:
+        permissions:
+            subscribe: Subscribe to stock notifications
+        action:
+            notify: Notify customers the product is back in stock
+            confirmNotify: This will send a notification to {count} customers. Continue?
+    forum:
+        settings:
+            stockNotification: Stock Notification
+        product:
+            enableNotification: Alert me when back in stock
+            disableNotification: Do not alert me when back in stock
+            notificationHelp: You will receive one alert the next time the product is back in stock
+        notifications:
+            backInStock: Product {title} is back in stock!
+    email:
+        backInStock:
+            subject: Product {title} is back in stock!
+            body: The product you were waiting for is back in stock!
