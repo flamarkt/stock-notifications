@@ -1,5 +1,5 @@
 {
-    "name": "@flamarkt/product-slugs",
+    "name": "@flamarkt/stock-notifications",
     "private": true,
     "dependencies": {
         "flarum-tsconfig": "^1.0",
