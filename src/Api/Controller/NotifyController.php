@@ -33,7 +33,7 @@ class NotifyController implements RequestHandlerInterface
         $id = Arr::get($request->getQueryParams(), 'id');
         $actor = RequestUtil::getActor($request);
 
-        $product = $this->repository->findOrFail($id, $actor);
+        $product = $this->repository->findUidOrFail($id, $actor);
 
         $actor->assertCan('sendStockNotification', $product);
 

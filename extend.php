@@ -6,7 +6,6 @@ use Flamarkt\Core\Api\Serializer\BasicProductSerializer;
 use Flamarkt\Core\Api\Serializer\ProductSerializer;
 use Flamarkt\Core\Product\Event\Saving;
 use Flamarkt\Core\Product\Product;
-use Flamarkt\Core\Product\ProductValidator;
 use Flarum\Extend;
 
 return [

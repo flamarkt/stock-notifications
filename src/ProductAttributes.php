@@ -21,7 +21,7 @@ class ProductAttributes
 
         return $attributes + [
                 'canSubscribeToStockNotification' => true,
-                'stockNotification' => !is_null(optional($product->cartState)->stock_notification_requested_at),
+                'stockNotification' => !is_null(optional($product->userState)->stock_notification_requested_at),
             ];
     }
 }
